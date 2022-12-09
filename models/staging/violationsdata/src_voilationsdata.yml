@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: violationsdata
+    database: cis9440-project
+    schema: violationsdata
+    tables:
+      - name: rawViolationsData
+
+

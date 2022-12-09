@@ -1,0 +1,12 @@
+version: 2
+ 
+models:
+ - name: stg_Location_dimension
+   description: Staged perpetrator profile
+   columns:
+     - name: Location_ID
+       description: Surrogate key of the offender
+       tests:
+          - unique
+          - not_null
+    
